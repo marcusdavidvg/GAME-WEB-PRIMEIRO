@@ -1,0 +1,325 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.insta{
+    color: yellow;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+section{
+    background-color: rgb(8, 4, 17);
+    width: 98vw;
+    height: 98vh;
+    border: solid 4px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(8, 4, 17);
+    width: 98vw;
+    height: 98vh;
+    border: solid 4px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#player{
+    width: 60px;
+    height: 60px;
+    
+    border-radius: 50%;
+    
+    position: relative;
+
+}
+
+#container-armys{
+    height: 100vh;
+    width: 200px;
+    
+    
+    position: fixed;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container-button{
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    
+}
+
+img{
+    width: 80px;
+    height: 80px;
+}
+
+#box-1{
+    width: 100px;
+    height: 100px;
+    right: 0px;
+    
+    position: relative;
+
+    /* animation-name: box1; */
+    /* animation-duration: 1.2s; */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+ @keyframes box1 {
+    0% {
+        right: 0px;
+    } 100% {
+        right: 1200px;
+    }
+} 
+
+
+#box-2{
+    width: 100px;
+    height: 100px;
+    right: 0px;
+    
+    position: relative;
+
+    /* animation-name: box2; */
+    /* animation-duration: 1.5s; */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes box2 {
+    0% {
+        right: 0px;
+    } 100% {
+        right: 1200px;
+    }
+} 
+
+#box-3{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 0px;
+
+    /* animation-name: box3; */
+    /* animation-duration: 1.5s; */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes box3 {
+    0% {
+        right: 0px;
+    } 100% {
+        right: 1200px;
+    }
+} 
+
+
+
+#box-4{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 0px;
+
+    /* animation-name: box4; */
+    /* animation-duration: 1.5s; */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes box4 {
+    0% {
+        right: 0px;
+    } 100% {
+        right: 1200px;
+    }
+} 
+
+
+#box-a, #box-b, #box-c, #box-d {
+    position: relative;
+    right: 0px;
+    /* animation-name: box1; */
+    
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes boxa {
+    0% {
+        right: 0px;
+    } 100% {
+        right: 1200px;
+    }
+} 
+@keyframes boxb {
+    0% {
+        right: 0px;
+    } 100% {
+        right: 1200px;
+    }
+} 
+
+@keyframes boxc {
+    0% {
+        right: 0px;
+    } 100% {
+        right: 1200px;
+    }
+} 
+
+@keyframes boxd {
+    0% {
+        right: 0px;
+    } 100% {
+        right: 1200px;
+    }
+} 
+
+
+/* mensagem tutorial */
+
+#box-info{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    margin: auto;
+
+    border: solid 1px white;
+    
+}
+
+.text-info{
+    font-family: monospace;
+    font-size: 19px;
+    max-width: 350px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#proximo1{
+    background-color: rgb(21, 185, 49);
+    width: 100px;
+    height: 40px;
+    color: aliceblue;
+}
+
+#box-info2{
+    border: solid 1px white;
+    
+    width: 500px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
+
+    position: absolute;
+    margin: auto;
+}
+
+h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: aliceblue;
+
+}
+
+#text-2{
+    font-family: monospace;
+    font-size: 19px;
+    max-width: 350px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#proximo2{
+    background-color: rgb(19, 168, 32);
+    width: 100px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+
+    
+}
+
+/* escolha play */
+
+#play {
+    position: absolute;
+    margin: auto;
+    width: 500px;
+    height: 240px;
+    border: solid 1px white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#linha-2{
+    
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#proximo3 {
+    background-color: rgb(19, 168, 32);
+    width: 100px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+}
+
+#sofia, #cavaleiro, #alek-play {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.desgner-play{
+    border-radius: 50%;
+}
+
